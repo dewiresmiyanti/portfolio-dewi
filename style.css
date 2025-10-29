@@ -1,0 +1,193 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #faf6ff; /* Latar belakang lembut pastel lavender */
+  color: #3a3a3a;
+}
+
+header {
+  background: linear-gradient(135deg, #c9a7eb, #f8c8dc); /* Gradasi ungu muda ke pink pastel */
+  color: white;
+  text-align: center;
+  padding: 40px 15px;
+  border-bottom: 4px solid #c9a7eb;
+}
+
+header h1 {
+  font-size: 2.2em;
+  font-weight: 600;
+  margin: 0;
+}
+
+nav {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 12px 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  color: #5e4b8b; /* Ungu kalem */
+  margin: 0 20px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #e48db1; /* Pink lembut */
+}
+
+main {
+  max-width: 900px;
+  margin: 50px auto;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+main img {
+  display: block;
+  margin: 0 auto 25px auto;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 3px solid #d2a8ff; /* Border ungu pastel */
+}
+
+h2 {
+  text-align: center;
+  color: #5e4b8b;
+  font-weight: 600;
+}
+
+p {
+  text-align: justify;
+  line-height: 1.8;
+  margin-top: 10px;
+}
+
+a.more {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: #e1b0ff;
+  color: white;
+  padding: 10px 22px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+a.more:hover {
+  background-color: #d48ce3;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  background-color: #f8f3ff;
+  border-left: 5px solid #d2a8ff;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+footer {
+  text-align: center;
+  padding: 18px;
+  background: #f8f3ff;
+  color: #555;
+  font-size: 0.9em;
+  margin-top: 40px;
+  border-top: 2px solid #e1b0ff;
+}
+
+footer span {
+  color: #d48ce3;
+}
+
+main, header, footer {
+  animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* 🌸 Tambahan Styling untuk Kotak Kritik & Saran */
+.feedback-box {
+  margin-top: 40px;
+  background-color: #faf2ff;
+  padding: 25px 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.feedback-box h2 {
+  color: #5e4b8b;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.feedback-box p {
+  text-align: center;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+.feedback-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.feedback-box label {
+  font-weight: 500;
+  color: #444;
+}
+
+.feedback-box input,
+.feedback-box textarea {
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  resize: none;
+  background-color: #fff9ff;
+}
+
+.feedback-box input:focus,
+.feedback-box textarea:focus {
+  border-color: #d48ce3;
+  outline: none;
+  box-shadow: 0 0 4px rgba(212,140,227,0.4);
+}
+
+.feedback-box button {
+  background: linear-gradient(135deg, #dcb5ff, #f7c6da);
+  color: white;
+  border: none;
+  padding: 12px 0;
+  border-radius: 25px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.feedback-box button:hover {
+  background: linear-gradient(135deg, #cba1f0, #f3adc9);
+  transform: scale(1.03);
+}
