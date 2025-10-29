@@ -15,6 +15,7 @@ Website ini dibuat menggunakan HTML dan CSS serta menerapkan konsep dari Percoba
 ## 💻 Cara Menjalankan
 1. Clone repository:
 2. git clone https://github.com/dewiresmiyanti/portfolio-dewi.git
+3. https://dewiresmiyanti.github.io/Tugas-Akhir-Percobaan-1-Praktikum-Pemrograman-Web-Profile-/
 
 ## 🧠 Teknologi yang Digunakan
 - HTML5
